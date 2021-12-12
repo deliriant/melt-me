@@ -65,7 +65,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Milk me!</title>
+        <title>Melt me!</title>
         <meta
           name="description"
           content="Simplified NextJs with typescript example app integrated with Metaplex's Candy Machine"
@@ -76,7 +76,7 @@ export default function Home() {
       <div className="flex flex-col items-center min-h-screen mx-6">
         <Toaster />
         <div className="flex items-center justify-between w-full mt-3">
-          <h1 className="text-2xl font-bold">Milk me!</h1>
+          <h1 className="text-2xl font-bold">Melt me!</h1>
           <div className="flex items-center">
             {connected && (
               <div className="flex items-end mr-2">
